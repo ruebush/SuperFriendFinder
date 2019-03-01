@@ -1,24 +1,25 @@
 {
-  "name": "ff",
+  "name": "superfriendfinder",
   "version": "1.0.0",
-  "description": "friend finder app",
+  "description": "friend app",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "james lamb",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
     "path": "^0.12.7"
   },
   "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://ruebush.com/SuperFriendFinder"
+    "url": "git+https://github.com/ruebush/SuperFriendFinder.git"
   },
-  "keywords": [
-    "friends"
-  ]
+  "author": "jrl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruebush/SuperFriendFinder/issues"
+  },
+  "homepage": "https://github.com/ruebush/SuperFriendFinder#readme"
 }
