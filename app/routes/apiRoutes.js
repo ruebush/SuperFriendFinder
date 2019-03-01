@@ -3,12 +3,8 @@ var friends = require("../data/friends.js");
 var path = require("path");
 
 module.exports = function(app) {
-  
-    app.get("/", function(req, res) {
-        res.json(path.join(__dirname, "/app/public/index.html"));
-      });
 
-  app.get("/api/friends", function(req, res) {
+  app.get("/", function(req, res) {
     res.json(friends);
   });
 
